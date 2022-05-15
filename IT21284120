@@ -33,7 +33,7 @@ class feedback
 		 void check_feedback();
 		 void display_feedback();
 		 
-}
+};
 
 // Payment
 #include<string.h>
@@ -52,6 +52,6 @@ class payment
 		void check_payment();
 		void display_payment();
 	
-}
+};
 
 
