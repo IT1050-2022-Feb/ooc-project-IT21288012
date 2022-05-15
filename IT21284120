@@ -1,0 +1,57 @@
+//Co - Admin
+#include<string.h>
+
+class co_admin
+{
+	private :
+		int co_admin_ID;
+		char co_admin_email[50];
+		char co_admin_username[50];
+		char co_admin_password[50];
+		
+	public :
+		co_admin();
+		co_admin(int co_admin_ID, char co_admin_email[], char co_admin_username[],char co_admin_password[]);	
+		void login();
+		check_payment();
+		void manage_users();
+		void manage_job();
+		 
+};
+
+//Feedback
+#include<string.h>
+#include"coordinator.h"
+
+class feedback
+{
+	private : 
+		int feedback_ID;
+	
+	public :
+		 feedback();
+		 void check_feedback();
+		 void display_feedback();
+		 
+}
+
+// Payment
+#include<string.h>
+#include"co_admin.h"
+
+class payment
+{
+	private :
+		int payment_ID;
+		int payment_amount;
+		char payment_date[50];
+		char payment_type[50];
+		
+	public : 
+		payment();
+		void check_payment();
+		void display_payment();
+	
+}
+
+
